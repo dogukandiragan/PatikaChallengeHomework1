@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    
+ <!--   <h1>AppId: @ViewBag.AppId</h1>
+    <h1>UserId: @ViewBag.UserId</h1>
+    <h1>Date: @ViewBag.Date</h1>
+    <h1>UserToken: @ViewBag.UserToken</h1>
+    <h1>EncryptionKey: @ViewBag.EncryptionKey</h1>
+    <h1>ChallengeId: @ViewBag.ChallengeId</h1>
+    -->
+    <form id="myForm" method="post" action="/Home/CreateUser">
+     
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <button type="submit">User Create</button>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" style="font-size:13px; cellspacing="0">
+                   
+                        <tbody>
+
+                            <tr>
+                                <td style="width: 50px;">AppId:</td>
+                                <td style="text-align: left;">@ViewBag.AppId</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;">UserId:</td>
+                                <td style="text-align: left;">@ViewBag.UserId</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;">Date:</td>
+                                <td style="text-align: left;">@ViewBag.Date</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;">UserToken:</td>
+                                <td style="text-align: left;">@ViewBag.UserToken</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;">EncryptionKey:</td>
+                                <td style="text-align: left;">@ViewBag.EncryptionKey</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;">ChallengeId:</td>
+                                <td style ="text-align: left;">@ViewBag.ChallengeId</tdstyle>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <table width="300px">
+ 
+     
+</table>
+    </form>
+</div>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PatikaChallenge.Presentation", "PatikaChallenge.Presentation", "{E4B878DA-E8D1-459D-8167-B4E405C12F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PatikaChallenge.Application", "PatikaChallenge.Application", "{AF2834DF-989A-4EC3-9831-00238887C1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaChallenge.Presentation.Web", "Presentation\PatikaChallenge.Presentation.Web\PatikaChallenge.Presentation.Web.csproj", "{D9493527-41D9-4900-BA00-C18DB5DD176F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaChallenge.Application.Process", "Application\PatikaChallenge.Application.Process\PatikaChallenge.Application.Process.csproj", "{B65E87DD-C8D1-4D39-9161-0CC9194FFF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaChallenge.Application.Domain", "Application\PatikaChallenge.Application.Domain\PatikaChallenge.Application.Domain.csproj", "{17B68B08-CB35-47D5-A35E-985899F26946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9493527-41D9-4900-BA00-C18DB5DD176F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9493527-41D9-4900-BA00-C18DB5DD176F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9493527-41D9-4900-BA00-C18DB5DD176F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9493527-41D9-4900-BA00-C18DB5DD176F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65E87DD-C8D1-4D39-9161-0CC9194FFF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65E87DD-C8D1-4D39-9161-0CC9194FFF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65E87DD-C8D1-4D39-9161-0CC9194FFF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65E87DD-C8D1-4D39-9161-0CC9194FFF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B68B08-CB35-47D5-A35E-985899F26946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B68B08-CB35-47D5-A35E-985899F26946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B68B08-CB35-47D5-A35E-985899F26946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B68B08-CB35-47D5-A35E-985899F26946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9493527-41D9-4900-BA00-C18DB5DD176F} = {E4B878DA-E8D1-459D-8167-B4E405C12F1E}
+		{B65E87DD-C8D1-4D39-9161-0CC9194FFF44} = {AF2834DF-989A-4EC3-9831-00238887C1A5}
+		{17B68B08-CB35-47D5-A35E-985899F26946} = {AF2834DF-989A-4EC3-9831-00238887C1A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78D7B425-7D3F-4BCB-ADAB-7234C548C5D5}
+	EndGlobalSection
+EndGlobal
